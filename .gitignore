@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Conda
+.conda/
+
+# Model checkpoints and training artifacts
+checkpoints/*.pth
+checkpoints/*.pt
+logs/
+*.log
+
+# Results
+results/*.png
+results/*.json
+results/*.csv
+
+# Dataset (too large for GitHub)
+brain_tumer_dataset/train/*.jpg
+brain_tumer_dataset/valid/*.jpg
+brain_tumer_dataset/test/*.jpg
+brain_tumer_dataset/train/_annotations.coco.json
+brain_tumer_dataset/valid/_annotations.coco.json
+brain_tumer_dataset/test/_annotations.coco.json
+
+# Keep directory structure
+!brain_tumer_dataset/README.txt
+!checkpoints/.gitkeep
+!logs/.gitkeep
+!results/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+temp/
+tmp/
