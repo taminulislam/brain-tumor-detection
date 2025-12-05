@@ -73,3 +73,17 @@ Thumbs.db
 *.tmp
 temp/
 tmp/
+
+*.png
+*.jpg
+
+*.pth
+*.pt
+*.ckpt
+*.model
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
