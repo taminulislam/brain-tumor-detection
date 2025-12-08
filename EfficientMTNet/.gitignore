@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model checkpoints
+checkpoints/*.pth
+!checkpoints/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Results
+results/*
+!results/.gitkeep
+
+# Dataset
+*.jpg
+*.png
+*.json
