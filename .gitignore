@@ -74,9 +74,6 @@ Thumbs.db
 temp/
 tmp/
 
-*.png
-*.jpg
-
 *.pth
 *.pt
 *.ckpt
