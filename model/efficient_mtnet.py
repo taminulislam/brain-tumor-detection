@@ -326,18 +326,6 @@ class EfficientMTNet(nn.Module):
 
 
 def get_efficient_mtnet_model(n_classes_seg=2, n_classes_cls=2, img_size=640, use_aux=True):
-    """
-    Get EfficientMTNet model for multi-task learning
-    
-    Args:
-        n_classes_seg: number of segmentation classes
-        n_classes_cls: number of classification classes
-        img_size: input image size
-        use_aux: use auxiliary heads for deep supervision
-    
-    Returns:
-        EfficientMTNet model
-    """
     model = EfficientMTNet(
         n_classes_seg=n_classes_seg,
         n_classes_cls=n_classes_cls,
