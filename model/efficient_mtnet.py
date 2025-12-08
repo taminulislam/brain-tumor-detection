@@ -254,19 +254,6 @@ class FeatureFusionPlus(nn.Module):
 
 
 class EfficientMTNet(nn.Module):
-    """
-    Efficient Multi-Task Network (EfficientMTNet)
-    
-    A novel lightweight architecture for simultaneous brain tumor 
-    segmentation and classification.
-    
-    Key Innovations:
-    1. Enhanced Learning-to-Downsample with SE blocks
-    2. Multi-scale Feature Aggregation Neck
-    3. LightHam head for efficient global context
-    4. Auxiliary heads for deep supervision
-    5. Attention-based feature fusion
-    """
     def __init__(self, n_classes_seg=2, n_classes_cls=2, img_size=640, use_aux=True):
         super(EfficientMTNet, self).__init__()
         self.img_size = img_size
