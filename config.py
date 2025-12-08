@@ -13,7 +13,8 @@ MODEL_NAME = 'efficient_mtnet'
 USE_AUX_HEADS = True  # Use auxiliary heads for deep supervision
 
 # Dataset paths
-DATA_ROOT = os.path.join('..', 'brain_tumer_dataset')
+# Update this path to point to your brain tumor dataset
+DATA_ROOT = 'brain_tumer_dataset'  # or use absolute path
 TRAIN_DIR = os.path.join(DATA_ROOT, 'train', 'images')
 VAL_DIR = os.path.join(DATA_ROOT, 'valid', 'images')
 TEST_DIR = os.path.join(DATA_ROOT, 'test', 'images')
